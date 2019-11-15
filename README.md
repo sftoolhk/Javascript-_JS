@@ -1,2 +1,2 @@
-# Javascript-_JS
+# Javascript_JS
 Introdução à JS
