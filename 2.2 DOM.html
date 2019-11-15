@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <div is="app">
+            <input type="text" name="nome" id="nome" class="name"/>
+            //<input type="text" name="nome" id="nome" class="name"/>  //ByTagName
+            
+            <button class="botao">Adicionar</button>
+        </div>
+        <scripts>
+            var inputElement = document.getElementById('nome');
+            //var inputElement = document.getElementsByTagName('input');
+            //var inputElement = document.getElementsByClassName('input');
+            
+            //var inputElement = document.querySelector('body div#app input');
+            //var inputElement = document.querySelector('body div#app input');
+            //var inputElement = document.querySelectorAll('input');
+
+            //var inputElement = document.querySelector('button.click');
+            //var btnElement = document.querSelector('button.botao')
+
+            //btnElement.onclick = function()
+            {
+                var text = inputElement.value;
+
+                alert('text');
+            }
+            
+            console.log(inputElement);     
+        </scripts>
+    </body>
+</html>

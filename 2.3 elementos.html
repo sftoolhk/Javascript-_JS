@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <div is="app">
+            <inout id="nome" />
+
+        </div>
+        <scripts>
+            var linkElement = document.createElement('a');
+            linkElement.setAttribute('href', 'fmoraeste.space');
+            linkElement.setAttribute('title', 'site de FabioM');
+
+            var textElement = document.createTextNode('Acessar site');
+            linkElement.appendChild(textElement);
+            
+            var containerElement = document.querySelector('#app');
+            containerElement.appendChild(linkElement);
+            
+            var inputElement = document.querySelector('#nome');
+            containerElement.removeChild(inputElement);
+        </scripts>
+    </body>
+</html>
